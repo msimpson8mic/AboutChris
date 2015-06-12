@@ -1,0 +1,144 @@
+body {
+	color: #222222;
+	font-size: 1em;
+	font-family: 'Arial', sans-serif;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #29A3A3;
+}
+
+a:hover {
+	color: #70DBDB;
+}
+
+a:visited {
+	color: #1F7A7A;
+}
+
+.masthead,
+.introduction,
+.location,
+.questions,
+.content-footer {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer > p,
+.social {
+    text-align: center;
+}
+
+.introduction,
+.location,
+.questions {
+   max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.masthead {
+	padding: 6em 0;
+	background-image: url("images/masthead-img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 1em #33CCCC
+}
+
+.circular-img {
+  	width: 80px;
+  	height: 80px;
+	border-radius: 50%;
+	background: url("images/circular-img.jpg") no-repeat;
+	margin: 0 auto;
+	box-shadow: 5px 5px 0px #33CCCC
+}
+
+.masthead-intro {
+	margin-bottom: 0.1em;
+	color: #FFFFFF;
+	font-family: "Times New Roman", serif;
+	font-size: 2em;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 0px #33CCCC
+}
+
+.heading {
+	max-width: 19em;
+	margin-top: 2em;
+}
+
+.question {
+	margin: 2em 0 1em 0;
+	color: #33CCCC;
+	font-family: 'Arial', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.answer {
+	margin-left: 0em;
+}
+
+.content-footer {
+	margin-top: 5em;
+	padding: 4em 0;
+	background-color: #33CCCC
+}
+
+.content-footer > p {
+  color: #FFFFFF;
+}
+
+.social {
+	padding: 0;
+	list-style: none;
+}
+
+.social > li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.image-via > a {
+	color: #29A3A3;
+}
+
+.image-via > a:hover {
+	color: ##70DBDB;
+}
+
+.image-via > a:visited {
+	color: #1F7A7A;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
